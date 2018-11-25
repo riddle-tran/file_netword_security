@@ -1,0 +1,28 @@
+.deleted-board-list {
+  table {
+    @media (max-width: 500px) {
+      th:nth-child(2), th:nth-child(3), td:nth-child(2), td:nth-child(3) {
+        display: none;
+      }
+    }
+  }
+}
+
+.float-e-margins .btn {
+  margin-bottom: 0;
+}
+
+.preview-small {
+  position: relative;
+}
+
+.preview-large {
+  position: absolute;
+  z-index: 1100;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid #28a745;
+  >img {
+    border-radius: 10px;
+  }
+}

@@ -1,0 +1,103 @@
+.card-form {
+  .wrapper-card-details {
+    float: left;
+  }
+  label.card-details {
+    color: #6b7c93;
+    font-weight: bold;
+    letter-spacing: 0.025em;
+    width: 100%;
+    font-size: 1.5em;
+  }
+  a.powered-by-stripe {
+    float: right;
+    outline: none;
+  }
+  button.ladda-button {
+    background-color: #6772e5;
+    min-width: 60px;
+    &[disabled],
+    [disabled]:hover,
+    [data-loading],
+    [data-loading]:hover {
+      background-color: #7795f8;
+    }
+  }
+  form {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 3px solid #e6ebf1;
+  }
+  input,
+  .StripeElement {
+    display: block;
+    margin: 0 0 20px 0; // max-width: 500px;
+    padding: 10px 14px;
+    font-size: 1em;
+    font-family: 'Source Code Pro', monospace;
+    box-shadow: rgba(50, 50, 93, 0.14902) 0px 1px 3px, rgba(0, 0, 0, 0.0196078) 0px 1px 0px;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    background: white;
+    clear: both;
+  }
+  input::placeholder {
+    color: #aab7c4;
+  }
+  input:focus,
+  .StripeElement--focus {
+    box-shadow: rgba(50, 50, 93, 0.109804) 0px 4px 6px, rgba(0, 0, 0, 0.0784314) 0px 1px 3px;
+    -webkit-transition: all 150ms ease;
+    transition: all 150ms ease;
+  }
+  .StripeElement.IdealBankElement,
+  .StripeElement.PaymentRequestButton {
+    padding: 0;
+  }
+  .selected-plan-label {
+    font-size: 1.5em;
+  }
+  .plan-name {
+    margin-left: 10px;
+    font-size: 1.2em;
+  }
+  .card-form-price {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .name-label {
+    color: #6b7c93;
+    font-weight: 500;
+    letter-spacing: 0.025em;
+    font-size: 1.4em;
+  }
+  .payment-card {
+    margin-top: 10px;
+    position: relative;
+  }
+  .change-mode-btn-wrapper {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2100;
+    transition: background-color 500ms;
+    button {
+      float: right;
+      margin-top: 20px;
+      margin-right: 20px;
+      z-index: 2200;
+    }
+  }
+  .subscription-mes {
+    font-size: 0.923em;
+    color: rgba(0, 0, 0, 0.4)
+  }
+  .hr {
+    margin: 20px 0 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+  }
+}

@@ -1,0 +1,63 @@
+.canvasContextMenu-hor {
+  position: absolute;
+  border-radius: 2px;
+  background-color: #fff;
+  z-index: 1010;
+  cursor: default;
+  border-radius: 4px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .12);
+  -webkit-tap-highlight-color: transparent;
+  >.ccm-group {
+    padding: 0 5px 0 5px;
+    margin: 0;
+    display: flex;
+    cursor: pointer;
+    >.ccm-item {
+      width: 40px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-shrink: 0;
+      box-sizing: border-box;
+      cursor: pointer;
+      position: relative;
+    }
+  }
+}
+
+.canvasContextMenu-ver {
+  position: absolute;
+  border-radius: 2px;
+  background-color: #fff;
+  width: 220px;
+  z-index: 1010;
+  border-radius: 4px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .12);
+  >.ccm-group {
+    padding: 15px 0;
+    font-size: 14px;
+    cursor: default;
+    >.ccm-item {
+      height: 36px;
+      cursor: pointer;
+      color: #333;
+      box-sizing: border-box;
+      >.ccm-text {
+        margin-left: 16px;
+        line-height: 36px;
+      }
+      >.ccm-shortcut {
+        float: right;
+        margin-right: 30px;
+        line-height: 36px;
+        color: #9d9d9d;
+      }
+      &:hover {
+        >.ccm-text {
+          color: #1ab394;
+        }
+      }
+    }
+  }
+}

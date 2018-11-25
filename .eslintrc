@@ -1,0 +1,7 @@
+{
+  "env": {
+    "jquery": true
+  },
+  "extends": ["react-app"],
+  "plugins": ["jsx-a11y"]
+}

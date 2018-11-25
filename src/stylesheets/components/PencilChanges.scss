@@ -1,0 +1,63 @@
+#pencilChanges {
+  position: absolute;
+  top: 80px;
+  right: 10px;
+  background: rgba(94, 181, 166, .5);
+  padding: 10px;
+  width: 140px;
+  border: 1px solid rgba(0, 0, 0, .2);
+}
+
+#chrome {
+  position: absolute;
+  top: 340px;
+  right: 10px;
+}
+
+.rc-slider-track {
+  background: #ed5565;
+}
+
+#parentSizes {
+  margin-bottom: 9px;
+}
+
+#color-Palette {
+  width: 130px;
+  margin-top: 12px;
+  /* SCROLLBAR */
+  /* Let's get this party started */
+  ::-webkit-scrollbar {
+    width: 7px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #FFFFFF;
+    border: 4px solid transparent;
+    background-clip: content-box; // this is important
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #1c84c6;
+  }
+}
+
+#sizes {
+  margin-bottom: 7px;
+  padding-left: 8px;
+  font-size: 14px;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ebebeb;
+  font-weight: bold;
+}
+
+#selecColor {
+  font-size: 14px;
+  padding-left: 8px;
+  padding-bottom: 2px;
+  font-weight: bold;
+}
+
+#selectScroll {
+  overflow-y: auto;
+}

@@ -1,0 +1,47 @@
+.plans-modal {
+  .modal-dialog {
+    width: auto;
+    max-width: 1172px;
+  }
+  @media (max-width: 1202px - 1) {
+    .modal-dialog {
+      margin: 10px;
+    }
+  }
+  .modal-body {
+    padding: 0;
+  }
+  .pricing-upgrade-btn-wrapper {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .plan-info {
+    position: relative;
+    .plan-disable {
+      display: none;
+    }
+    &[disabled],
+    [disabled=true] {
+      .plan-disable {
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba($color: #ffffff, $alpha: 0.8);
+        height: 100%;
+        width: 100%;
+        font-weight: bold;
+        font-size: 1.2em;
+        > div {
+          text-align: center;
+          padding: 0 15px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+Commit id: d3d5c8f37d439b34058e7948febbdb5fa6349b9d [d3d5c8f]
+Parents: 32e51638fa
+Author: Tam Nguyen <tam-nt@genkisystem.com>
+Date: Tuesday, August 7, 2018 11:44:55 AM
+Committer: Tam Nguyen
+limit pan in minimap

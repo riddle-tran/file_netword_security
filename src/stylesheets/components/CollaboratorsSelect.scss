@@ -1,0 +1,13 @@
+.collaborators-select {
+  .Select--multi .Select-value {
+    display: inline-flex;
+    word-break: break-all;
+    .Select-value-icon {
+      border-right: none;
+      border-left: 1px solid rgba(0, 126, 255, 0.24);
+    }
+  }
+  .Select-clear-zone {
+    min-width: 21px;
+  }
+}

@@ -1,0 +1,59 @@
+.options-feature {
+  width: 220px;
+  min-height: 240px;
+}
+#settingsContainer {
+  padding: 0px;
+  .tab-item, .tab-item-extend {
+    width: 27%;
+    float: left !important;
+    a {
+      height: 45px;
+      border: none;
+      text-align: center;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    i {
+      font-size: 1.5em;
+    }
+  }
+  .tab-item-extend {
+    width: 19% !important;
+  }
+  .active {
+    a {
+      border-bottom: 2px solid #279cea !important;
+    }
+  }
+  .panel-body {
+    border: none;
+  }
+  .item-container {
+    padding: 5px 0px;
+    text-align: center;
+    .item-img {
+      width: 40px;
+      height: 40px;
+    }
+    .item-text {
+      padding-top: 5px;
+      font-size: 10px;
+    }
+    &:hover {
+      cursor: pointer;
+      div {
+        color: #568eef;
+      }
+      path {
+        fill: #0051e0;
+      }
+      polygon {
+        fill: #0051e0;
+      }
+    }
+  }
+  .nav-tabs {
+    border-bottom: 1px solid #c1c1c1;
+  }
+}
